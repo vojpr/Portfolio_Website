@@ -141,6 +141,7 @@ a {
 @media screen and (max-width: 463px) {
     .folder-projects {
         top: 18%;
+        left: 68%;
     }
 }
 
@@ -224,7 +225,7 @@ a {
 
 @media screen and (max-width: 600px) {
     .container {
-        width: 60%;
+        width: 75%;
     }
 }
 
@@ -239,7 +240,7 @@ a {
 
 @media screen and (max-width: 600px) {
       #about-text {
-        width: 60%;
+        width: 75%;
         font-size: 100%;
     }
 }
@@ -708,7 +709,7 @@ a {
 @media screen and (max-width: 600px) {
     #contact-text {
         margin-top: 100px;
-        width: 60%;
+        width: 75%;
         font-size: 100%;
     }
 }
