@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects | Vojtech Prusa</title>
+    <meta content="Vojtech Prusa personal CV website" name="description">
+    <meta content="developer, programmer coding" name="keywords">
+    <!-- Favicon -->
+    <link href="{{ url_for('static',filename='img/favicon.png') }}" rel="icon">
+    <link href="{{ url_for('static',filename='img/favicon.png') }}" rel="apple-touch-icon">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Boostrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <!-- Main CSS File-->
+    <link href="{{ url_for('static',filename='css/styles.css') }}" rel="stylesheet">
+</head>
+
+<body id="projects">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <span class="navbar-brand">projects</span>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('home') }}">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- Projects folders -->
+    <section id="projects-folders">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="folder_1 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Art_Website">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Art&nbspGallery Web</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="folder_2 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Kanban_board_web">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Kanban&nbspBoard Web</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="folder_3 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Watermark_to_image_App">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Watermark&nbspApp</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="folder_4 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Prague_Pubs_Bars_website_API">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Prague&nbspPubs&nbspWeb (with&nbspAPI&nbspendpoints)</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="folder_5 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Text_to_Speech_Web">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Text&#8209to&#8209Speech Web</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="folder_6 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Color_palette_from_image_Web/">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Color&nbspPalette Generator&nbspWeb</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="folder_7 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Dont-Overthink-It_Writing_App">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Don't&#8209Overthink&#8209It Web</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="folder_8 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/F1_2022_Results_Scraper">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">F1&nbsp2022 Results</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="folder_9 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Typing_Speed_Test_App">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Typing&nbspSpeed Test&nbspApp</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="folder_10 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Text_to_speech_App">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Text&#8209to&#8209Speech App</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="folder_11 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Tic_Tac_Toe_you_cannot_win">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Tic&#8209Tac&#8209Toe against AI</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="folder_12 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Morse_Code_Translator">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">Morse&nbspCode Translator</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="folder_13 folder draggable">
+                        <a target="_blank" href="https://github.com/vojpr/Formula_1_TurtleRace">
+                            <div>
+                                <img class="img-folder" src="static/img/Folder_big_green.png">
+                                <span class="text-folder">F1&nbspTurtle Race</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <!-- Footer-->
+    <div class="before-footer"></div>
+    <footer id="footer">
+        <div class="footer-div">Copyright &copy; <script>document.write(new Date().getFullYear())</script> by vojtech</div>
+    </footer>
+
+
+    <!-- jQuery UI CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!-- Boostrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- Main JS File -->
+    <script src="{{ url_for('static',filename='js/scripts.js') }}"></script>
+
+</body>
+</html>

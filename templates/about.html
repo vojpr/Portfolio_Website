@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about | Vojtech Prusa</title>
+    <meta content="Vojtech Prusa personal CV website" name="description">
+    <meta content="developer, programmer coding" name="keywords">
+    <!-- Favicon -->
+    <link href="{{ url_for('static',filename='img/favicon.png') }}" rel="icon">
+    <link href="{{ url_for('static',filename='img/favicon.png') }}" rel="apple-touch-icon">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Boostrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <!-- Main CSS File-->
+    <link href="{{ url_for('static',filename='css/styles.css') }}" rel="stylesheet">
+</head>
+
+<body id="about">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <span class="navbar-brand">about</span>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('home') }}">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('projects') }}">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="flex-wrapper">
+        <!-- About text -->
+        <div id="about-text">
+            <div class="about-div">
+                    <span class="type-about" style="--n:5500">
+                        I’m a young, enthusiastic developer based in Prague, Czech Republic, who is eager to gain work
+                        experience, enhance his current skills, and learn new ones. I am skilled in Python, HTML, and CSS.
+                        <br>&nbsp;<br>
+                        I started programming while studying for my master's degree in marketing communication, and
+                        I quickly realized that programming was the career path I wanted to pursue. What immediately
+                        drew me to programming was the opportunity to apply my analytical problem-solving personality
+                        and attention to detail.
+                        <br>&nbsp;<br>
+                        After completing a comprehensive course that taught me everything from the fundamentals to
+                        deploying full-scale web applications, I continued to improve my skills by working on my own
+                        projects, always looking for challenges that stretched my knowledge (and many times my
+                        patience as well :).
+                        <br>&nbsp;<br>
+                        As I have created several projects, I am ready for the next big challenge that can push me
+                        further. I believe that my passion and desire to learn new skills can make up for my lack of
+                        work experience. Because learning new skills and broadening my knowledge is my biggest
+                        motivation.&nbsp;
+                        <br>
+                    </span>
+                    <br>
+                    <div class="resume-div">
+                    <a class="resume" href="{{ url_for('static',filename='resume/Vojtech_Prusa_CV_eng.pdf') }}" target="_blank">My resume (pdf)</a>
+                    </div>
+            </div>
+        </div>
+
+
+
+        <!-- Footer-->
+        <footer id="footer">
+            <div class="footer-div">Copyright &copy; <script>document.write(new Date().getFullYear())</script> by vojtech</div>
+        </footer>
+    </div>
+
+    <!-- jQuery UI CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!-- Boostrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- Main JS File -->
+    <script src="{{ url_for('static',filename='js/scripts.js') }}"></script>
+</body>
+</html>
